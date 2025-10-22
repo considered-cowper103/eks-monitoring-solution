@@ -1,0 +1,51 @@
+aws_region     = "us-east-1"
+aws_account_id = "123456789012"
+
+project_name = "monitoring"
+environment  = "dev"
+
+vpc_cidr           = "10.0.0.0/16"
+availability_zones = ["us-east-1a", "us-east-1b", "us-east-1c"]
+
+eks_cluster_name = "monitoring-eks-cluster"
+eks_version      = "1.31"
+
+eks_node_groups = {
+  monitoring = {
+    desired_size   = 2
+    min_size       = 1
+    max_size       = 3
+    instance_types = ["t3.large"]
+    disk_size      = 50
+    capacity_type  = "ON_DEMAND"
+    labels = {
+      role = "monitoring"
+    }
+  }
+  
+  applications = {
+    desired_size   = 2
+    min_size       = 1
+    max_size       = 4
+    instance_types = ["t3.medium"]
+    disk_size      = 30
+    capacity_type  = "ON_DEMAND"
+    labels = {
+      role = "applications"
+    }
+  }
+}
+
+ecs_cluster_name = "monitoring-ecs-cluster"
+
+prometheus_retention_days = 15
+thanos_retention_days    = 90
+
+grafana_admin_password = "changeme"
+alertmanager_slack_webhook = ""
+pagerduty_integration_key = ""
+
+tags = {
+  Owner     = "your-team"
+  CostCenter = "engineering"
+}
